@@ -1,0 +1,682 @@
+<style>
+	html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background:#fff;
+    margin-left:0px;
+    margin-right:0px;
+    font-family: Arial !important;
+    }
+  
+#consent-banner {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 95000;
+}
+  
+#consent-banner,#teconsent {font-family:Matter, Arial, sans-serif !important;}
+.trustarc-banner-header,.trustarc-header-text {font-family:Matter, Arial, sans-serif !important;}
+body:focus {outline: none !important;}
+a#icon-id04051092759554411 {margin: 0px 0px 10px 15px !important;}
+.trustarc-primary-btn,.trustarc-declineall-btn,.trustarc-acceptall-btn, #truste-consent-button, #truste-consent-required {border: 1px solid #000000 !important; background-color: rgba(0,0,0,.67) !important; color: #ffffff !important;}
+.trustarc-primary-btn:hover,.trustarc-declineall-btn:hover,.trustarc-acceptall-btn:hover, #truste-consent-button:hover, #truste-consent-required:hover {border: 1px solid #000000 !important; background-color: rgba(0,0,0,1) !important; color: #ffffff !important;}
+
+  
+.container-fluid.fix {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+  
+.header {
+  width: auto;
+  max-width: none;
+  padding-top: 1%;
+  padding-right: 10%;
+  padding-bottom: 1%;
+  padding-left: 10%;
+  object-fit: fill;
+}
+
+  
+.headerimage {
+  height: 20px;
+  max-width: 100%;
+}
+
+.hero {
+  overflow: hidden;
+  background-color: #380577;
+  padding-top: 7.5%;
+  padding-right: 10%;
+  padding-bottom: 7.5%;
+  padding-left: 10%;
+}
+  
+.hero2 {
+  overflow: hidden;
+  background-color: #380577;
+}
+  
+.hero.background {
+  background-size: cover;
+  overflow: hidden;
+  background-color: #380577;
+  background-image: linear-gradient(rgba(56, 5, 119, 0.5),rgba(0, 0, 0, 0.5)), url("${HeroBackground}");
+  background-size: cover;
+  background-position: center;
+}
+
+.heroinfo {
+  padding-top: 5%;
+  padding-right: 5%;
+  padding-left: 10%;
+  padding-bottom: 5%;
+}
+  
+.heroh1 {
+  margin-bottom: 20px;
+  margin-top: 0px;
+  color: #fff;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.widthfix {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.spacersmall {
+  height: 25px;
+}
+
+.spacermedium {
+  height: 50px;
+}
+  
+.main {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.pd-r {
+  padding-right: 10%;
+}
+ 
+.mg-b {
+  margin-bottom: 10px;
+}
+  
+.paragraph {
+  font-size: 16px;
+}
+  
+.col-sm-6.main {
+  padding-left: 0px;
+}
+  
+.col-sm-6.fix {
+  padding-left: 15px;
+}
+
+.col-sm-2 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.col-sm-9 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.col-sm-7 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+ 
+.col-sm-5 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+  
+.col-sm-3 {
+  padding-left: 0px;
+  padding-right: 0px;
+} 
+
+.subhero {
+  background-color: #565ca0;
+  padding-top: 5%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+}
+
+.shareblock {
+  background-color: #e6e7f1;
+  padding-top: 5%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  text-align: center;
+}
+  
+.footer {
+  background-color: #f6f6f6;
+  padding-top: 5%;
+  padding-right: 10%;
+  padding-bottom: 2.5%;
+  padding-left: 10%;
+}  
+
+.footerlegaltext {
+  font-size: 14px;
+  text-decoration: none;
+  color: #000000;
+}
+
+p {
+   font-size: 16px ;
+}
+  
+.headingh2 {
+  color: #380577;
+  font-size: 30px;
+  font-weight: bold;
+}
+ 
+h2{
+  color: #380577;
+  font-size: 30px;
+  font-weight: bold;
+}
+.headingh3 {
+  line-height: 24px;
+  font-weight: bold;
+}
+
+h3  {
+  line-height: 24px;
+  font-weight: bold;
+}
+  
+.headingh4 {
+  font-size: 24px;
+}
+ 
+h4 {
+    font-size: 24px;
+}
+  
+a {
+  color: #380577;
+  text-decoration: underline;
+}
+  
+.solo {
+  margin-top: 0px;  
+}
+
+.paragraph.mg-b {
+  margin-bottom: 15px;
+}
+  
+.col-sm-6.fill {
+  max-height: 500px;
+}
+
+.col-sm-6.heroinfo {
+  max-height: 500px;
+}
+  
+.col-sm-5.icm-pdr {
+  padding-right: 20px;
+}
+
+.col-sm-1 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+  
+.no-pd {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.pd-r {
+  padding-right: 20px;
+}
+  
+.ft-center {
+  text-align: center;
+}
+  
+.ft-right {
+  text-align: right;
+}
+  
+.ft-left {
+  text-align: left;
+}
+  
+.noHover{
+    pointer-events: none;
+} 
+  
+.overlapping {
+  margin-top: -100px;
+}
+  
+form.mktoForm {
+  background: #380577;
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+      
+form.mktoForm .mktoOffset,
+form.mktoForm .mktoGutter {
+display:none !important;
+}
+
+form.mktoForm * {font-size: inherit !important; box-sizing:border-box;}
+
+form.mktoForm,
+form.mktoForm .mktoFormRow,
+form.mktoForm .mktoButtonRow,
+form.mktoForm .mktoFormCol,
+form.mktoForm .mktoFieldWrap,
+form.mktoForm label.mktoLabel,
+form.mktoForm input[type=url],
+form.mktoForm input[type=text],
+form.mktoForm input[type=date],
+form.mktoForm input[type=tel],
+form.mktoForm input[type=email],
+form.mktoForm input[type=number],
+form.mktoForm textarea.mktoField,
+form.mktoForm select.mktoField,
+form.mktoForm .mktoLogicalField {
+  width: 100% !important;
+
+}
+ 
+  .mktoForm .mktoAsterix {
+    display: none !important;
+}
+  
+.mktoForm {
+  width: 100% !important;
+}
+
+a.form {
+  color:white;
+  text-decoration: underline;
+}
+  
+.mktoForm input[type=url], 
+.mktoForm input[type=text], 
+.mktoForm input[type=date], 
+.mktoForm input[type=tel], 
+.mktoForm input[type=email], 
+.mktoForm input[type=number], 
+.mktoForm textarea.mktoField, 
+.mktoForm select.mktoField {
+  width:100%;
+  background:#fff !important;
+  border: 1px !important;
+  border-color:#fff !important;
+  color:#333333 !important;
+}
+     
+.mktoRequiredField {
+  color:#9e97ba !important;
+}
+      
+.mktoFormRow, .mktoFieldWrap, .mktoFormCol {
+  width:100%;
+}
+
+.mktoFieldWrap {
+  color: white !important
+}
+  
+.mktoButtonRow {
+  width: 50%;
+  text-align: right;
+}
+      
+.mktoForm .mktoRequiredField label.mktoLabel {
+  font-weight:normal !important;
+}
+      
+.mktoForm .mktoLabel {
+  width:100% !important;
+  color: #fff;
+  font-weight: normal !important;
+}
+
+.mktoForm .mktoButtonWrap.mktoSimple .mktoButton {
+  font-size:20px !important;
+  text-decoration: none !important;
+  background:#fff !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+  border-radius: 10px !important; 
+  transition: 0.3s; !important;
+  border: none !important;
+  color: #380577 !Important
+}
+
+.mktoForm .mktoButtonWrap.mktoSimple .mktoButton:hover {
+  text-decoration: none !important;
+  background-color: #565ca0 !important;
+  color: #fff !important;
+}
+  
+.mktoForm .mktoOffset {
+    float: left;
+    height:0 !important;
+    width:10px;
+}
+ 
+.mktoForm.mktoLayoutAbove .mktoRadioList, .mktoForm.mktoLayoutAbove .mktoCheckboxList {
+  width:auto !important;
+  float:left !important;
+  clear:none !important;
+}
+
+.mktoButtonWrap {
+  margin-left:0 !important;
+}
+
+.mktoFieldWrap {
+  color: white !Important;
+}
+
+.mktoHtmlText {
+  width: 100% !important;
+}
+  
+.mktoButtonRow {
+ 
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  text-align:right !important;
+}
+      
+.mktoForm.mktoLayoutAbove .mktoRadioList, .mktoForm.mktoLayoutAbove .mktoCheckboxList {
+  width:auto !important;
+  float:left !important;
+  clear:none !important;
+}
+      
+.mktoForm .mktoRadioList, .mktoForm .mktoCheckboxList {
+  padding: 0px !important;
+}
+
+  
+  
+@media screen and (max-width: 991px) { <!-- Tablet View Medium -->
+  
+.header{
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 10%;
+}
+
+.hero {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+  
+.heroinfo {
+  overflow: hidden;
+  padding-top: 10%;
+  padding-right: 10%;
+  padding-bottom: 10%;
+  padding-left: 10%;
+}
+  
+.heroh1 {
+  font-size: 30px;
+  line-height: 30px;
+  margin-top: 0px;
+}
+  
+.heroh2 {
+  font-size: 18px;
+  line-height: 24px;
+}
+  
+.subhero {
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+
+}
+  
+@media screen and (max-width: 767px) { <!-- Mobile Wide View Small -->
+
+.headingh2 {
+    font-size: 28px;
+    line-height: 28px;
+  }
+  
+h2 {
+  font-size: 28px;
+  line-height: 28px;
+  }
+  
+.header {
+  padding-left: 10%;
+} 
+  
+.hero {
+  display: block;
+  height: auto;
+  flex-wrap: nowrap;
+}
+  
+.herosplit {
+  padding-bottom: 10%;
+}
+
+.heroinfo {
+  display: block;
+  height: auto;
+  flex-wrap: nowrap;
+}
+ 
+.fill {
+    display: none;
+}
+  
+.pf-mg {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.speakerpicture2: {
+  max-width: 150px;
+}
+
+.col-sm-6.main.pd-r {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+  
+.col-sm-4 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.col-sm-5.icm-pdr {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+ 
+.none-mob{
+  display:none;
+}
+
+.mob-mg-b {
+  margin-bottom: 25px;
+}
+  
+.pd-r {
+  padding-right: 0px;
+}
+  
+.ft-center {
+  text-align: center;
+  margin-bottom: 25px;
+}
+  
+.ft-right {
+  text-align: center;
+  margin-bottom: 25px;
+}
+  
+.ft-left {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.overlapping {
+  margin-top: 0px;
+}
+  
+.consent-banner {
+  display: none;
+}
+}
+  
+@media screen and (max-width: 479px) { <!-- Mobile View Tiny -->
+ 
+.heroh1 {
+  line-height: 30px;
+}
+
+.heroh2{
+  line-height: 22px;
+}
+  
+.headingh2 {
+    font-size: 26px;
+    line-height: 26px;
+  }
+  
+h2 {
+    font-size: 26px;
+    line-height: 26px;
+  }  
+
+.headingh3 {
+    font-size: 22px;
+    line-height: 22px;
+  }
+
+h3 {
+    font-size: 22px;
+    line-height: 22px;
+  }
+
+.headingh4 {
+    font-size: 22px;
+    line-height: 22px;
+  }
+
+h4 {
+    font-size: 22px;
+    line-height: 22px;
+  }
+  
+.header{
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  padding-left: 10%;
+  text-align: left;
+}
+ 
+.hero {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  height: auto;
+}
+
+.heroinfo {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  height: auto;
+}
+ 
+.heroh1 {
+  font-size: 28px;
+}
+  
+.heroh2 {
+  font-size: 18px;
+}
+  
+.subhero {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.speakertext1 {
+  line-height: 24px;
+}
+  
+.speakerpicture2:{
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+
+.col-sm-3.pd-b {
+  padding-bottom: 25px;
+}
+
+.col-sm-4.pd-b {
+  padding-bottom: 25px;
+}
+
+.mktoImg.mktoGen#mkto_gen_SpeakerImage1 img {
+    flex-shrink: 0;
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.mktoImg.mktoGen#mkto_gen_SpeakerImage2 img {
+    flex-shrink: 0;
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.mktoImg.mktoGen#mkto_gen_SpeakerImage3 img {
+    flex-shrink: 0;
+    max-width: 50%;
+    max-height: 50%;
+}
+  
+.mktoImg.mktoGen#mkto_gen_SpeakerImage4 img {
+    flex-shrink: 0;
+    max-width: 50%;
+    max-height: 50%;
+}
+  
+}
+  </style>
+
+
+<div class="Styling aus css" style="background-color: #006ec7">
+      <div class="Styling aus css">
+        <h1>Hero Text</h1>
+      </div>
+  </div>
