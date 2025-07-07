@@ -1,0 +1,1 @@
+import{j as r}from"./jsx-runtime-CDt2p4po.js";function t({text:e}){return r.jsx("p",{children:e})}t.__docgenInfo={description:"Primary UI component for user interaction",methods:[],displayName:"MailTemplate",props:{text:{required:!0,tsType:{name:"string"},description:""}}};export{t as M};
