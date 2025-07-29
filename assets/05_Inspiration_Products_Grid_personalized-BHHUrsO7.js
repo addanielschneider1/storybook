@@ -1,0 +1,1 @@
+import{j as t}from"./jsx-runtime-Cf8x2fCZ.js";import"./index-yBjzXJbu.js";function r({text:e}){return t.jsx("p",{children:e})}r.__docgenInfo={description:"Primary UI component for user interaction",methods:[],displayName:"MailTemplate",props:{text:{required:!0,tsType:{name:"string"},description:""}}};export{r as default};

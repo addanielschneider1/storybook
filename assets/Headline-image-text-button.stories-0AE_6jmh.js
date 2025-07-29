@@ -1,0 +1,51 @@
+import{j as i}from"./jsx-runtime-Cf8x2fCZ.js";import d from"./Headline-image-text-button-BHHUrsO7.js";import"./index-yBjzXJbu.js";const m=`<table class="Stylig aus css" cellpadding="0" cellspacing="0" align="center" style="word-break: break-word; width: 600px;">
+    <tbody>
+<!-- Headline Start -->
+    <e-optional name="01 Headline">        
+        <tr>
+            <td>
+                <h1 e-editable="Headline">Headline</h1>
+            </td>
+        </tr>
+    </e-optional>    
+<!-- Headline Ende -->
+<!-- Image Start -->
+    <e-optional name="02 Image">        
+        <tr>
+            <td>
+                <a href="htps://www.platzhalter.de" e-editable="imagelink"><img src="https://placehold.co/600x400" alt="" e-editbale="imagesource"></a>
+            </td>
+        </tr>
+    </e-optional>    
+<!-- Image Ende -->
+<!-- Copy Start -->
+    <e-optional name="03 Copy">        
+        <tr>
+            <td style="width: 100%; text-align: center;">
+                <p e-editable="text" class="Stylig aus css">Modultext</p>
+            </td>
+        </tr>
+    </e-optional>    
+<!-- Copy Ende -->
+<!-- Button Start -->
+    <e-optional name="04 Button">        
+        <tr>
+            <td style="text-align: center;">
+                <a href="https://www.platzhalter.de" target="_blank" class="Stylig aus css" e-editable="buttonlink"><span e-editable="buttontext">Button</span></a>
+            </td>
+        </tr>
+    </e-optional>    
+<!-- Button Ende -->        
+    </tbody>
+</table>`,g={title:"Allgemein/Body/Headline-image-text-button",component:d},e={args:{text:"Wähle HTML-Story!"}},t={render:()=>i.jsx("div",{dangerouslySetInnerHTML:{__html:m}})};var n,a,r;e.parameters={...e.parameters,docs:{...(n=e.parameters)==null?void 0:n.docs,source:{originalSource:`{
+  args: {
+    text: "Wähle HTML-Story!"
+  }
+}`,...(r=(a=e.parameters)==null?void 0:a.docs)==null?void 0:r.source}}};var o,l,s;t.parameters={...t.parameters,docs:{...(o=t.parameters)==null?void 0:o.docs,source:{originalSource:`{
+  // Hiermit kann man reines html rendern. Allerdings wird immer ein <div> im HTML zusaetzlich ausgeben
+  render: () => {
+    return <div dangerouslySetInnerHTML={{
+      __html: template
+    }} />;
+  }
+}`,...(s=(l=t.parameters)==null?void 0:l.docs)==null?void 0:s.source}}};const y=["ReactStory","HtmlStory"];export{t as HtmlStory,e as ReactStory,y as __namedExportsOrder,g as default};
